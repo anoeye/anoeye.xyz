@@ -1,0 +1,241 @@
+/*----------------------------------------------------------------*/
+/*                      Prysma Logo Font                          */
+/*----------------------------------------------------------------*/
+
+@font-face {
+    font-family: "prysmafont";
+    src: url("./prysma.ttf") format("ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 80;
+    font-style: normal;
+  }
+
+body {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 10%;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+}
+
+a, button {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(136, 135, 135);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    font-family: monospace;
+    background-color: #181414;
+    color: #ccad58;
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+    height: 45px;
+    transition: .3s;
+  }
+  
+  button:hover {
+    background-color: #ccad58;
+    box-shadow: 0 0 0 5px #ccad58c7;
+    color: #fff;
+  }
+
+.headerbutton {
+    font-weight: 500;
+    justify-content: center;
+    align-self: center;
+    position: absolute;
+    padding: 10px 0%;
+    top: 400px;
+    width: 10%;
+}
+
+.headerbutton1{
+    left: 39%;
+}
+
+.headerbutton2 {
+    left: 53%;
+}
+
+.gobackbutton {
+    left: 47%;
+}
+
+.bigtext {
+    font-size: 60px;
+    font-weight: bolder;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10%;
+    color: #fff;
+    position: absolute;
+    top: 250px;
+    z-index: 2;
+}
+
+.smalltext{
+    font-size: 28px;
+    font-weight: 200;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10%;
+    color: #fff;
+    position: absolute;
+    top: 310px;
+    z-index: 1;
+}
+
+discordint {
+    font-size: 28px;
+    font-weight: 200;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10%;
+    color: #fff;
+    position: absolute;
+    top: 1000px;
+    z-index: 1;
+}
+
+
+body {
+    --sb-track-color: #000000;
+    --sb-thumb-color: #ccad58;
+    --sb-size: 14px;
+  }
+  
+  body::-webkit-scrollbar {
+    width: var(--sb-size)
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 3px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 3px;
+    
+  }
+  
+  ::-moz-selection { /* Code for Firefox */
+    color: #000000;
+    background: #ccad58;
+  }
+  
+  ::selection {
+    color: #000000;
+    background: #ccad58;
+  }
+
+.imprinthead {
+    font-size: 35px;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.imprinttext {
+    font-size: 18px;
+    font-weight: 200;
+    color: #fff;
+}
+
+.imprint {
+    font-weight: 400;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10%;
+    color: #fff;
+    position: absolute;
+    top: 400px;
+    left: -10%;
+    z-index: 0;
+}
+
+.imprint1 {
+    font-weight: 400;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10%;
+    color: #fff;
+    position: absolute;
+    top: 460px;
+    left: 17%;
+    z-index: 0;
+    display: inline-block;
+    list-style: none;
+}
+
+.wave1 {
+    top: 1400px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+}
+
+.wavebox {
+    color: #fff;
+    background-color: #1e2124;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 4000px;
+    
+}
+
