@@ -1,6 +1,6 @@
-# The Source of the Prysma Website
+# The Source of the Anoeye Website
 
 This is the source code of https://anoeye.xyz/
 without permission you are not allowed to use any of our scripts!
 
-Get Hired! https://anoeye.xyz/jobs/
+ASK! https://anoeye.xyz/
